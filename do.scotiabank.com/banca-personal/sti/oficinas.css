@@ -1,0 +1,446 @@
+﻿           .HorariosTranferencias p,
+           .nuevosCanales {
+               font-size: 16px;
+               font-weight: 600;
+           }
+
+           .canales-digitales {
+               padding: 0x 0px 75px 0px;
+           }
+
+           .canales-digitales .title {
+               font-size: 32px;
+               text-transform: none;
+           }
+
+           .canales-digitales .title-desc {
+               font-size: 16px;
+               font-weight: 500;
+           }
+
+           .canales-digitales .all-cards {
+               margin-top: 60px;
+               display: flex;
+
+           }
+
+           .canales-digitales .canal {
+               text-transform: none;
+               color: #00c1d5 !important;
+               font-size: 18px;
+           }
+
+           .canales-digitales .card {
+               width: 20%;
+               display: inline-block;
+               padding: 0px 10px;
+           }
+
+           .canales-digitales .desc {
+               margin-top: 20px;
+           }
+
+           .canales-digitales .card .icono {
+               max-height: 100px;
+           }
+
+           .canales-digitales .desc-2 {
+               margin-top: 50px;
+           }
+
+           .canales-digitales .desc-2 p {
+               font-weight: 500;
+               font-size: 16px;
+           }
+
+           @media (max-width: 1200px) {
+               .canales-digitales .canal {
+                   min-height: 40px;
+               }
+           }
+
+           @media (max-width:768px) {
+
+               .canales-digitales .card {
+                   display: block;
+                   padding: 0px;
+                   width: 100%;
+               }
+
+               .canales-digitales .all-cards {
+                   display: block;
+                   width: 90%;
+                   margin: 50px auto 0px auto;
+                   float: none;
+
+               }
+
+               .canales-digitales .top {
+                   margin-top: 40px;
+               }
+
+               .canales-digitales .canal {
+                   min-height: auto;
+               }
+
+               .canales-digitales .desc {
+                   margin-top: 10px;
+               }
+
+               .canales-digitales .card .icono {
+                   max-height: 80px;
+               }
+
+           }
+
+           .enfoques#oficinasDisponibles {
+               margin-top: 10px;
+               margin-bottom: 50px;
+           }
+
+           .enfoques #enfoqueTab li.active a {
+               color: #003b7a !important;
+               border: none;
+           }
+
+           .enfoques #enfoqueTab li {
+               padding: 10px 20px;
+               font-family: Roboto;
+               font-weight: 500;
+               border-right: 1px solid #ccc;
+           }
+
+           .enfoques #enfoqueTab li:last-child {
+               border-right: none;
+           }
+
+           .enfoques #enfoqueTab.nav-tabs {
+               border-bottom: none;
+               margin-bottom: 30px
+           }
+
+           .enfoques #enfoqueTab.nav-tabs .nav-link:hover,
+           .enfoques #enfoqueTab.nav-tabs .nav-link {
+               border: none;
+           }
+
+           .d-flex {
+               display: flex;
+           }
+
+           .justify-content-center {
+               justify-content: center;
+           }
+
+           .nav>li>a:hover {
+               background-color: transparent;
+               color: #003b7a !important;
+           }
+
+           .enfoquesWrapper .oficinaAbierta {
+               border-bottom: 1px solid #ccc;
+               margin: 15px;
+           }
+
+           #horarios-servicio {
+               padding-top: 4%;
+               text-align: center;
+           }
+
+
+           #horarios-servicio h2 {
+               margin-left: 10px;
+               font-weight: 500;
+               font-size: 26px;
+           }
+
+
+           #horarios-servicio .detalles {
+               padding-top: 15px;
+           }
+
+           #horarios-servicio p {
+               font-size: 16px;
+               font-weight: 600;
+           }
+
+
+
+
+           @media (max-width: 768px) {
+
+               .enfoques #enfoqueTab.nav-tabs {
+                   display: block;
+               }
+
+
+               .enfoques #enfoqueTab li {
+                   width: 100%;
+                   text-align: center;
+                   padding-bottom: 0;
+                   border: none;
+               }
+
+               .enfoques #enfoqueTab.nav-tabs .nav-link:hover,
+               .enfoques #enfoqueTab.nav-tabs .nav-link {
+                   border: none;
+               }
+
+               #horarios-servicio .detalles {
+                   padding-top: 20px;
+               }
+           }
+
+           .enfoques#oficinasDisponibles {
+               margin-top: 50px;
+               margin-bottom: 50px;
+           }
+
+           .enfoques .enfoqueTab li.active a {
+               color: #003b7a !important;
+               border: none;
+           }
+
+           .enfoques .enfoqueTab li {
+               padding: 10px 20px;
+               font-family: Roboto;
+               font-weight: 500;
+               border-right: 1px solid #ccc;
+           }
+
+           .enfoques .enfoqueTab.subTab li {
+               padding: 0;
+           }
+
+           .enfoques .enfoqueTab li:last-child {
+               border-right: none;
+           }
+
+           .enfoques .enfoqueTab.nav-tabs {
+               border-bottom: none;
+               margin-bottom: 15px
+           }
+
+           .enfoques .enfoqueTab.nav-tabs .nav-link:hover,
+           .enfoques .enfoqueTab.nav-tabs .nav-link {
+               border: none;
+           }
+
+           .enfoques .oficinaScroll {
+               height: 450px;
+               overflow-x: hidden;
+               overflow-y: scroll;
+               width: 100%;
+           }
+
+           .d-flex {
+               display: flex;
+           }
+
+           .justify-content-center {
+               justify-content: center;
+           }
+
+           .nav>li>a:hover {
+               background-color: transparent;
+               color: #003b7a !important;
+           }
+
+           .enfoquesWrapper .oficinaAbierta {
+               border-bottom: 1px solid #ccc;
+               margin: 10px;
+           }
+
+           #horarios-servicio {
+               padding-top: 4%;
+               text-align: center;
+           }
+
+
+           #horarios-servicio h2,
+           .p22 {
+               margin-left: 10px;
+               font-weight: 900;
+               font-size: 22px;
+           }
+
+
+           #horarios-servicio .detalles {
+               padding-top: 15px;
+           }
+
+           #horarios-servicio p,
+           .nuevosCanales {
+               font-size: 16px;
+               font-weight: 600;
+           }
+
+           #oficinasDisponibles #nuevaAsistencia {
+               padding-top: 50px;
+           }
+
+           #oficinasDisponibles #nuevaAsistencia h2.p22 {
+               margin-bottom: 50px;
+           }
+
+           #oficinasDisponibles #nuevaAsistencia .colCanal {
+               margin-bottom: 50px;
+           }
+
+           #oficinasDisponibles #nuevaAsistencia .mail-icon {
+               margin-top: 25px;
+           }
+
+           #oficinasDisponibles #nuevaAsistencia .chat-icon {
+               margin-top: 5px;
+           }
+
+           @media (max-width: 768px) {
+
+               .enfoques .enfoqueTab.nav-tabs {
+                   display: block;
+               }
+
+
+               .enfoques .enfoqueTab li {
+                   width: 100%;
+                   text-align: center;
+                   padding-bottom: 0;
+                   border: none;
+               }
+
+               .enfoques .enfoqueTab.nav-tabs .nav-link:hover,
+               .enfoques .enfoqueTab.nav-tabs .nav-link {
+                   border: none;
+               }
+
+               #horarios-servicio .detalles {
+                   padding-top: 20px;
+               }
+
+               #oficinasDisponibles #nuevaAsistencia .mail-icon {
+                   margin-top: 0;
+               }
+
+               #oficinasDisponibles #nuevaAsistencia .chat-icon {
+                   margin-top: 0;
+               }
+
+           }
+
+
+           /* Horario de navidad */
+           .horario-box {
+               width: 95%;
+               height: auto;
+               margin-bottom: 40px;
+           }
+
+           .horario-box li {
+               margin-top: 15px;
+           }
+
+           .horario-box-e {
+               width: 95%;
+               height: 320px;
+               margin-bottom: 40px;
+           }
+
+           .maparea {
+            height: 550px !important; 
+           }
+
+           #map-region .listarea-md .map-search-results {
+            height: 200px !important;
+           }
+
+
+           @media screen and (max-width:767px) {
+
+               .horario-box,
+               horario-box-e {
+                   width: 100%;
+                   height: auto;
+                   margin-bottom: 25px;
+               }
+
+
+           }
+
+           @media screen and (min-width:650px) {
+               #sectionBanner {
+                   position: relative;
+                   float: left;
+                   width: 100%;
+                   height: auto;
+                   padding: 1% 0% 0% 0%;
+                   background-image: url('../../../SiteCollectionImages/personas/nosotros/bannerlinea.png');
+                   background-position: left;
+                   background-repeat: repeat;
+                   margin-bottom: 20px;
+               }
+
+               #sectionBanner img {
+                   display: block;
+                   width: 90%;
+                   max-width: 450px;
+                   height: auto;
+                   margin: auto;
+               }
+
+               #sectionBanner .title {
+                   position: relative;
+                   float: left;
+                   width: 80%;
+                   margin: 5% 10%;
+                   font-size: 16px;
+                   line-height: 20px;
+                   color: white;
+                   text-align: center;
+                   text-shadow: 1px 1px 3px #0c2149;
+               }
+
+               #sectionBanner .title span {
+                   font-size: 24px;
+                   line-height: 32px;
+               }
+           }
+
+           @media screen and (max-width:649px) {
+               #sectionBanner {
+                   position: relative;
+                   float: left;
+                   width: 100%;
+                   height: auto;
+                   padding: 5% 0% 0% 0%;
+                   background-image: url('../../../SiteCollectionImages/personas/nosotros/bannerlinea.png');
+                   background-position: left;
+                   background-repeat: repeat-x;
+                   margin-bottom: 20px;
+               }
+
+               #sectionBanner img {
+                   display: block;
+                   width: 90%;
+                   max-width: 450px;
+                   height: auto;
+                   margin: auto;
+               }
+
+               #sectionBanner .title {
+                   position: relative;
+                   float: left;
+                   width: 80%;
+                   margin: 30px 10% 30px 10%;
+                   font-size: 18px;
+                   line-height: 20px;
+                   color: white;
+                   text-align: center;
+                   text-shadow: 1px 1px 3px #0c2149;
+               }
+
+               #sectionBanner .title span {
+                   font-size: 22px;
+                   line-height: 24px;
+               }
+           }

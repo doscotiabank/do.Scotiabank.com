@@ -1,0 +1,76 @@
+
+
+ nombre: jjjjj
+ apellido: 8888888888888
+ cedula: 888888888888888
+ nacimiento: 0088-08-08
+ lugar de nac: Lugar de Nacimiento
+ direccion: 88888888888
+ num cell: 8888888888
+ correo: AWVRAW@GMAI.COM
+ lugar_detrabajo: 88888888888
+ cargo de trab: 88888888888
+ suelto: 888888888
+ solicita: 888888
+ comentario: 8
+ 
+
+ nombre: 88888888
+ apellido: 8888
+ cedula: 888888888888888
+ nacimiento: 0008-08-08
+ lugar de nac: Lugar de Nacimiento
+ direccion: 888888888999999
+ num cell: 8888888888
+ correo: codo@co.com
+ lugar_detrabajo: 888888888888
+ cargo de trab: 88888888888888
+ suelto: 8
+ solicita: 8
+ comentario: 8
+ 
+
+ nombre: ooooooooooooo
+ apellido: ooooooooooo
+ cedula: 000000000000000
+ nacimiento: 0099-09-09
+ lugar de nac: Lugar de Nacimiento
+ direccion: oooooooooooo
+ num cell: 0000000000
+ correo: AWVRAW@GMAI.COM
+ lugar_detrabajo: ooooooooooo
+ cargo de trab: ooooooooooooo
+ suelto: 0000000000
+ solicita: 00000000000
+ comentario: 0
+ 
+
+ nombre: jjjjjjjjjjjj
+ apellido: jjjjjjjjjjjjjjjjj
+ cedula: 999999999999999
+ nacimiento: 99999-09-09
+ lugar de nac: Lugar de Nacimiento
+ direccion: 99999999999
+ num cell: 9999999999
+ correo: laura@gmail.com
+ lugar_detrabajo: 99999999999999
+ cargo de trab: 99999999999
+ suelto: 9
+ solicita: 9
+ comentario: 9
+ 
+
+ nombre: ppppppppppppp
+ apellido: 000000
+ cedula: 000000000000000
+ nacimiento: 0999-09-09
+ lugar de nac: Lugar de Nacimiento
+ direccion: 999999999999999
+ num cell: 9999999999
+ correo: AWVRAW@GMAI.COM
+ lugar_detrabajo: 999999999999999999
+ cargo de trab: 9
+ suelto: 9
+ solicita: 9
+ comentario: 9
+ 

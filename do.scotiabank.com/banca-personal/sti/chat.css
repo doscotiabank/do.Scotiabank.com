@@ -1,0 +1,35 @@
+.chat{
+	display: inline-block;
+background:white;
+display: flex;
+margin: auto;
+height: 30px;
+width: 300px;
+border-radius: 10px;
+text-align: center;
+border-style:;
+margin-bottom: 30px;
+border-color: blue;
+color:#24303c;
+font-size: 20px;
+font-family: 'calibri';
+text-decoration:#24303c;
+}
+
+.enviar{
+	display: inline-block;
+background:white;
+display: flex;
+margin: auto;
+height: 40px;
+width: 150px;
+border-radius: 10px;
+text-align: center;
+border-style:;
+margin-bottom: 30px;
+border-color: blue;
+color:#24303c;
+font-size: 20px;
+font-family: 'calibri';
+text-decoration:#24303c;
+}
