@@ -1,0 +1,66 @@
+.bns--callout-button{position:relative;background:#fff;margin-top:-80px;z-index:3}
+.bns--callout-button.red{background-color:#ec111a}
+.bns--callout-button.pink{background-color:#f2609e}
+.bns--callout-button.blue{background-color:#009dd6}
+.bns--callout-button.green{background-color:#138468}
+.bns--callout-button.purple{background-color:#7849b8}
+.bns--callout-button.orange{background-color:#fb6330}
+.bns--callout-button.dark-grey{background-color:#333}
+.bns--callout-button.white{background-color:#fff}
+.bns--callout-button.transparent{background-color:#f6f6f6}
+.bns--callout-button.light-grey{background-color:#f6f6f6}
+.bns--callout-button.dark-bg .c--header .c--title{margin-bottom:0}
+.bns--callout-button.dark-bg .c--header .c--title h1,.bns--callout-button.dark-bg .c--header .c--title h2,.bns--callout-button.dark-bg .c--header .c--title h3,.bns--callout-button.dark-bg .c--header .c--title h4,.bns--callout-button.dark-bg .c--header .c--title h5,.bns--callout-button.dark-bg .c--header .c--title h6{color:#fff}
+.bns--callout-button.dark-bg .c--header .c--title p{color:#fff}
+@media(min-width:1200px){.bns--callout-button{z-index:998;margin-top:-5.5rem}
+.bns--callout-button .c--header .c--icon{margin-right:30px}
+.bns--callout-button .c--body{padding:0 0 0 24px}
+}
+@media(max-width:1199px){.bns--callout-button .c--content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.bns--callout-button.hasIcon .c--icon{display:-webkit-box;display:-ms-flexbox;display:flex}
+.bns--callout-button.hasIcon.button1 .c--header,.bns--callout-button.hasIcon.button2 .c--header{display:-webkit-box;display:-ms-flexbox;display:flex}
+.bns--callout-button.hasIcon.button1 .c--body,.bns--callout-button.hasIcon.button2 .c--body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.ie-11 .bns--callout-button.hasIcon.button1 .c--body,.ie-11 .bns--callout-button.hasIcon.button2 .c--body{-ms-flex-preferred-size:100%;flex-basis:100%}
+.bns--callout-button.button1 .c--header,.bns--callout-button.button2 .c--header{display:-webkit-box;display:-ms-flexbox;display:flex}
+.bns--callout-button.button1 .c--body,.bns--callout-button.button2 .c--body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.ie-11 .bns--callout-button.button1 .c--body,.ie-11 .bns--callout-button.button2 .c--body{-ms-flex-preferred-size:100%;flex-basis:100%}
+}
+@media(max-width:767px){.bns--callout-button.hasIcon .c--icon,.bns--callout-button.hasIcon .c--header,.bns--callout-button.hasIcon .c--body,.bns--callout-button.button1 .c--icon,.bns--callout-button.button1 .c--header,.bns--callout-button.button1 .c--body,.bns--callout-button.button2 .c--icon,.bns--callout-button.button2 .c--header,.bns--callout-button.button2 .c--body,.bns--callout-button.hasIcon.button1 .c--icon,.bns--callout-button.hasIcon.button1 .c--header,.bns--callout-button.hasIcon.button1 .c--body,.bns--callout-button.hasIcon.button2 .c--icon,.bns--callout-button.hasIcon.button2 .c--header,.bns--callout-button.hasIcon.button2 .c--body{display:block;height:auto;min-height:auto;width:100%;max-width:100%;-webkit-box-flex:0;-ms-flex:none;flex:none}
+.bns--callout-button .c--content .c--header{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.bns--callout-button .c--content .c--body{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+}
+.bns--callout-button.disable-margin{margin:0;z-index:auto}
+.bns--callout-button.hasIcon .c--icon{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:24px}
+.bns--callout-button.hasIcon.button1 .c--header{display:-webkit-box;display:-ms-flexbox;display:flex}
+.bns--callout-button.hasIcon.button1 .c--body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}
+.bns--callout-button.hasIcon.button2 .c--header{display:-webkit-box;display:-ms-flexbox;display:flex}
+.bns--callout-button.hasIcon.button2 .c--body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}
+.bns--callout-button.button1 .c--header{display:-webkit-box;display:-ms-flexbox;display:flex}
+.bns--callout-button.button1 .c--body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}
+.bns--callout-button.button2 .c--header{display:-webkit-box;display:-ms-flexbox;display:flex}
+.bns--callout-button.button2 .c--body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}
+.bns--callout-button .c--content{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;-webkit-box-shadow:0 2px 10px 0 rgba(0,0,0,0.1);box-shadow:0 2px 10px 0 rgba(0,0,0,0.1);-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:36px}
+@media(max-width:991px){.bns--callout-button .c--content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:start}
+}
+.bns--callout-button .c--icon{display:none;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;min-height:1px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:120px}
+.ie-11 .bns--callout-button .c--icon{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+@media(max-width:1199px){.bns--callout-button .c--icon{height:auto}
+}
+@media(max-width:767px){.bns--callout-button .c--icon{padding:0 0 10px 0}
+}
+.bns--callout-button .c--icon img{width:48px;height:48px}
+.bns--callout-button .c--header,.bns--callout-button .c--body{position:relative;min-height:1px}
+.bns--callout-button .c--header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;min-height:1px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:120px}
+@media(max-width:1199px){.bns--callout-button .c--header{width:100%;min-height:auto;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}
+}
+.bns--callout-button .c--header .c--title{margin-bottom:0}
+.bns--callout-button .c--header .c--title h1,.bns--callout-button .c--header .c--title h2,.bns--callout-button .c--header .c--title h3,.bns--callout-button .c--header .c--title h4,.bns--callout-button .c--header .c--title h5,.bns--callout-button .c--header .c--title h6{font-family:"Scotiabank-Bold";margin-bottom:0;color:#4a4a4a}
+.bns--callout-button .c--header .c--title p{margin-bottom:0;color:#4a4a4a}
+.bns--callout-button .c--body{display:none;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;font-size:1.25rem}
+@media(max-width:1199px){.bns--callout-button .c--body{padding:20px 0 0 0}
+}
+.bns--callout-button .c--body p:last-of-type{margin-bottom:0}
+.bns--callout-button .c--body .bns_button:nth-child(2){margin-left:24px}
+@media(max-width:767px){.bns--callout-button .c--body .bns_button:nth-child(2){margin:20px 0 0 0}
+}
+.bns--callout-button .c--body .bns_button.text-only-button{padding:0}
