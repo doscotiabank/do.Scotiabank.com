@@ -1,0 +1,26 @@
+html:not(.ie) .swipeable-card-container{padding-top:24px;padding-bottom:24px;margin:0 -30px}
+@media(min-width:576px){html:not(.ie) .swipeable-card-container{margin:0 calc(0px - (100vw - 497px) / 2)}
+}
+@media(min-width:768px){html:not(.ie) .swipeable-card-container{margin:0 calc(0px - (100vw - 707px) / 2)}
+}
+@media(min-width:992px){html:not(.ie) .swipeable-card-container{margin:0 calc(0px - (100vw - 947px) / 2)}
+}
+@media(min-width:1200px){html:not(.ie) .swipeable-card-container{margin:0;padding-top:0;padding-bottom:0}
+}
+html:not(.ie) .swipeable-card-container .tab-pane{position:relative}
+html:not(.ie) .swipeable-card-container .tab-pane .swipeable-container{padding:12px 36px}
+@media(min-width:1200px){html:not(.ie) .swipeable-card-container .tab-pane .swipeable-container{padding:0}
+}
+html:not(.ie) .swipeable-card-container .tab-pane .swipeable-container .swiper-slide{height:initial}
+@media(max-width:1199px){html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls{text-align:center;display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+}
+html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-control-btn{display:inline-block;overflow:hidden;width:48px;height:48px;background:0;border:0;padding:0}
+html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-control-btn .chevron-left,html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-control-btn .chevron-right{width:24px;height:24px;display:block;margin:1px auto 0 auto}
+html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-control-btn .chevron-left.dark-grey g g,html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-control-btn .chevron-right.dark-grey g g{stroke:#333}
+html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-control-btn .chevron-left g g,html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-control-btn .chevron-right g g{stroke:#757575}
+html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls .swipeable-card-counter{display:inline-block;font-size:18px;margin:0 8px}
+@media(min-width:992px){html:not(.ie) .swipeable-card-container .tab-pane .swipeable-card-controls{display:none}
+}
+html:not(.ie) .col.swiper-slide{-ms-flex-preferred-size:initial;flex-basis:initial;padding:0}
+@media(max-width:767px){html:not(.ie) .col.swiper-slide .bns--card{display:-webkit-box;display:-ms-flexbox;display:flex}
+}

@@ -1,0 +1,10 @@
+.bns--back-2-top{cursor:pointer;display:block;width:50px;height:50px;background-color:#8230df;background-position:center center;background-size:20px auto;background-repeat:no-repeat;position:fixed;border-radius:50%;opacity:0;z-index:1028;bottom:-50px;right:30px;-webkit-box-shadow:0 0 8px rgba(0,0,0,0.3);box-shadow:0 0 8px rgba(0,0,0,0.3);border:0;-webkit-transform:translateY(0);transform:translateY(0);-webkit-transition:all .5s ease;transition:all .5s ease}
+html:not(.ie) .bns--back-2-top{position:-webkit-sticky;position:sticky;margin-top:-50px;margin-left:auto}
+.firefox .bns--back-2-top{margin-right:30px}
+.bns--back-2-top .back-top{width:20px;height:20px;vertical-align:text-top}
+.bns--back-2-top:hover{-webkit-transform:translateY(-3px);transform:translateY(-3px)}
+.bns--back-2-top.show{opacity:1;bottom:30px}
+@media(max-width:767px){.bns--back-2-top{right:15px}
+.firefox .bns--back-2-top{margin-right:15px}
+.bns--back-2-top.show{bottom:15px}
+}
